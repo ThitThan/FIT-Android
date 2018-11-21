@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?selectableItemBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_default"
+        android:paddingRight="@dimen/padding_default"
+        android:paddingTop="@dimen/padding_default"
+        android:paddingBottom="@dimen/padding_small"
+        android:clipToPadding="false">
+
+        <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TITLE"
+            android:letterSpacing="0.05"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="21dp"
+            android:textColor="#424242"/>
+
+        <!--<com.kmutt.sit.apps.fit.views.CloudBoldTextView-->
+            <!--android:id="@+id/tvHeaderSubtitle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="(Dec 24, 2017)"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="17dp"-->
+            <!--android:layout_below="@+id/tvHeaderTitle"-->
+            <!--android:textColor="#80424242"/>-->
+
+    </RelativeLayout>
+
+</FrameLayout>

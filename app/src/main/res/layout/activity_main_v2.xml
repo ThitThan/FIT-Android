@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:mContext="com.kmutt.sit.apps.fit.core.main.MainActivityV3"
+    android:background="@color/bgColorNormal"
+    android:id="@+id/rootView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/titleBar"
+            android:layout_width="match_parent"
+            android:layout_height="84dp">
+
+            <LinearLayout
+                android:id="@+id/btnUser"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_medium"
+                android:foreground="?selectableItemBackgroundBorderless"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_user_pic"
+                    android:alpha="0.75"
+                    android:layout_marginLeft="@dimen/padding_medium"/>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="6dp"
+                    android:src="@drawable/ic_arrow_down"
+                    android:alpha="0.75"
+                    android:layout_marginLeft="@dimen/padding_small"
+                    android:layout_marginRight="@dimen/padding_medium"/>
+
+            </LinearLayout>
+
+            <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="วันนี้"
+                android:textSize="32dp"
+                android:letterSpacing="0.05"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="always"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

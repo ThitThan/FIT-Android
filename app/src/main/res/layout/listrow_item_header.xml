@@ -1,0 +1,43 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="2dp"
+    android:foreground="?selectableItemBackground"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="2dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_default"
+        android:paddingRight="@dimen/padding_default"
+        android:paddingTop="@dimen/padding_default"
+        android:paddingBottom="@dimen/padding_small"
+        android:clipToPadding="false">
+
+        <!--<com.sullivan.apps.zrinka.tadashi.shared.ui.view.QuicksandProTextView-->
+            <!--android:id="@+id/tvHeaderTitle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="TODAY"-->
+            <!--android:letterSpacing="0.05"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="21dp"-->
+            <!--android:textColor="#424242"/>-->
+
+        <!--<com.sullivan.apps.zrinka.tadashi.shared.ui.view.QuicksandProTextView-->
+            <!--android:id="@+id/tvHeaderSubtitle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="(Dec 24, 2017)"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="17dp"-->
+            <!--android:layout_below="@+id/tvHeaderTitle"-->
+            <!--android:textColor="#80424242"/>-->
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

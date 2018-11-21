@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/975d0d2e206cdc8165e54bee067ac895232f61b8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1ee075177bd403c333d4843b92c4b6c55db929ed">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_bb54d2b11999b06800849ed8affdaaa529c3d46d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/f4237287983ad570d463cd4342219ae9fa9fa818/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_d0ce31d910cf2c56261f43f7a55cff43765b54fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/f72a322c4616838ffa2633bc8a269ad9a7c0b32d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_09864edb08f0dc6d753a9443080a0a112bd7d3ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/521860f36ebc99ba0d2acd2da1f135121975e136/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_bb8c01f382e990ba0c51dc65f27dccde76411ee3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_8256c54d7508300b0f0c7044340908884abf5535.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/14ad6b61be7b633e592e9c520a6b5d07e1da804a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_bc982fd5c179cfac35cf501f9ced6140a899111c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/24125f2aebf43fba663dc7fdf789578ee394283b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_071de053066a54cf44aea2120a35cea66a214baa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/8127b8c05d80a8d4f551a4971da9186250b0326a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_87ae27f6bc79f76bb794f1ee875b75d0d4d3b051.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/3beb4791ae2ba7324f4bf8da3172b333f4ec131d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_455c491af7520c9bd86503eba51ac39c830fbc6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/e4848e9ed028e1175ad438f1067ab2e0b8480bd2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_afafe4c23ffa97c9e2133e06c46c60f6ea6dbe55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/167c833fff059e579ab20604ff8ed76a8d1cd470/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_66e12e0cbde3e3fdabab38af75c130ce47068b6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/fa3023240b982e69cc854e8f530ff25a7d399f80/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_d8a2f415962b0e72601a8005d227912580a02dc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/3.5.0/1e4b144dd28b139ae890ce2868979b12e1f2d7c7/realm-annotations-3.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1e4b144dd28b139ae890ce2868979b12e1f2d7c7">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/realm-annotations-3.5.0_c7f464b811d14b5ec02c28647ffc86b298bc1cf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/ae65a12d5445a01e235b737fe06fe6c52d06d788/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f6a8cf78ca0b78e319fefe9268e7841e0543b02d">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_20c44a97470feeea0439b69f0c9215a3d4479866.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/6b7cb54a8543e5b88c9a1ebcddbe199edca4e61a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dda79566e3bd62f71664170a6d34773ee707c0da">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_9776a29e70aa110621f115a8faedc722dd94b4a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/391a4c685d894bb49c29110568366fbac4fb526b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8b0231ff1692ac844199e0287d97ee99fb2512b4">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_3fcdc16887788fcb56d44b335d4d81c0c418df0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_b8da225d4b945c31d13abbf79cd76f1974473c5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/b87e1a1906d2c53f307ba668f4ff972b58a6fc3b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_3f9e64980dcc7a0b1487e7fe79bb4c458e2d49f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/c20cf6d54b0f7dd07d1914746b01e42a5a35c8aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_6d9c80763a51419aa9f3e72317c6b473964e1ff3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/d6c27805f6b1789de8f3bccd7998f625453c62e0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_2c207b670ab00e354e5635d46ec1c344bf6f0587.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/e982dfc211cfbdc1839f23c6e4fea9a5b6f06829/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_9c46437ead64e13aaa5021a328d12630cb755868.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/eb8244ffd5b3bdc4804a06c01025a0e0ecd65500/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_a87f5647cf1671c9e7e3965b2d2bef5e8b780bb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/bfc040e4242c29ad1c84872e26fefe2f128cf797/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="700f8f1135982ef49cb91121a76490565f069553">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_34f71f12862ed4d6b2bc36b0fb03807374f36be5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Freshy/.android/build-cache/b33b947ad8697fbd01fccd4f4033024432dde869/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/Freshy/AndroidStudioProjects/SIT-KMUTT/FIT/app/build/intermediates/pre-dexed/debug/classes_013e52bb875640fed30f95ffe90786051a68bafa.jar" />
+    </item>
+
+</items>

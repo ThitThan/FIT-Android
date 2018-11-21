@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="#ffffff"
+    tools:mContext="com.kmutt.sit.apps.fit.core.main.MainActivityV3">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchBoxFrame"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/padding_default"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_medium"
+        android:paddingBottom="@dimen/padding_small"/>
+        <!--android:scrollbars="vertical"-->
+
+    <com.futuremind.recyclerviewfastscroll.FastScroller
+        android:id="@+id/fastScroller"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignRight="@+id/recyclerView"
+        android:layout_alignTop="@+id/recyclerView"
+        app:fastscroll__handleColor="@color/colorPrimaryDark"
+        app:fastscroll__bubbleColor="@color/colorPrimaryDark"
+        app:fastscroll__bubbleTextAppearance="@style/StyledScrollerTextAppearance"
+        android:layout_marginTop="@dimen/padding_default"
+        android:layout_marginBottom="@dimen/padding_large"
+        android:orientation="vertical"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#ffffff"/>
+
+    <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBar"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingTop="@dimen/padding_default"
+
+        android:background="#ffffff"
+
+        android:text="@string/action_new_item_food"
+        android:textSize="36dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccentOrange"
+        android:letterSpacing="0.05" />
+
+    <LinearLayout
+        android:id="@+id/searchBoxFrame"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/tvTitle"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+
+        android:layout_marginLeft="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_large"
+        android:layout_marginTop="@dimen/padding_small"
+        android:layout_marginBottom="@dimen/padding_small"
+
+        android:background="@drawable/bg_searchbox">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/ic_action_search"
+            android:layout_marginLeft="@dimen/padding_default"/>
+
+        <com.kmutt.sit.apps.fit.views.CloudBoldEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/padding_medium"
+            android:paddingRight="@dimen/padding_default"
+
+            android:textSize="21dp"
+            android:textColor="#424242"
+            android:textColorHint="#80424242"
+            android:singleLine="true"
+
+            android:background="#00ffffff"
+            android:hint="ค้นหา"/>
+
+    </LinearLayout>
+
+    <!--<Button-->
+        <!--android:id="@+id/btnFreeMode"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:foreground="?selectableItemBackground"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?actionBarSize"-->
+        <!--android:layout_alignParentBottom="true"-->
+
+        <!--android:text="โหมดอิสระ"-->
+        <!--android:textSize="24dp"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:letterSpacing="0.05" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</RelativeLayout>

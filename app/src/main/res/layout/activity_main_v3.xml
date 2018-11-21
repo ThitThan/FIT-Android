@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:mContext="com.kmutt.sit.apps.fit.core.main.MainActivityV3"
+    android:background="@color/bgColorNormal">
+
+    <ru.noties.scrollable.ScrollableLayout
+        android:id="@+id/scrollableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        app:scrollable_defaultCloseUp="true">
+
+        <FrameLayout
+            android:id="@+id/headerFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/titleBarSize"
+            android:paddingBottom="@dimen/padding_xlarge"
+            android:clipToPadding="false">
+
+            <FrameLayout
+                android:id="@+id/caloriesProgressBarFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:layout_gravity="top|center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/progressBarBgFrame"
+                    android:layout_width="@dimen/calories_progressbar_size"
+                    android:layout_height="@dimen/calories_progressbar_size"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/padding_small"
+                    android:clipToPadding="false"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/progressbar_progress_bg">
+
+                    <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding_default"
+                        android:text="พลังงานที่ได้รับ"
+                        android:textColor="#000000"
+                        android:textSize="24dp"
+                        android:letterSpacing="0.075"
+                        android:alpha="0.5"/>
+
+                    <com.kmutt.sit.apps.fit.views.HighTideTextView
+                        android:id="@+id/tvCaloriesCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding_xsmall"
+                        android:text="360"
+                        android:textColor="#ffffff"
+                        android:letterSpacing="0.05"
+                        android:textSize="84dp"/>
+
+                    <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-12dp"
+                        android:text="kcal"
+                        android:textColor="#ffffff"
+                        android:textSize="32dp"
+                        android:letterSpacing="0.05"
+                        android:alpha="0.75"/>
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/caloriesProgressBar"
+                    android:layout_width="@dimen/calories_progressbar_size_padded"
+                    android:layout_height="@dimen/calories_progressbar_size_padded"
+                    android:layout_gravity="center"
+                    android:progressDrawable="@drawable/progressbar_progress_grey"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:background="#00ffffff"
+                    android:progressTint="#ffffff"
+                    android:indeterminate="false"
+                    android:progress="25"
+                    android:max="100"/>
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="always"/>
+
+    </ru.noties.scrollable.ScrollableLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titleBarSize">
+
+        <LinearLayout
+            android:id="@+id/btnUser"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_medium"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:clipToPadding="false"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_user_pic"
+                android:alpha="0.75"
+                android:layout_marginLeft="@dimen/padding_medium"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="6dp"
+                android:src="@drawable/ic_arrow_down"
+                android:alpha="0.75"
+                android:layout_marginLeft="@dimen/padding_small"
+                android:layout_marginRight="@dimen/padding_medium"/>
+
+        </LinearLayout>
+
+        <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="วันนี้"
+            android:textSize="28dp"
+            android:letterSpacing="0.05"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:mContext="com.kmutt.sit.apps.fit.core.main.dailydata.DailyDataFragment">
+
+    <LinearLayout
+        android:id="@+id/newItemButtonBar"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnNewItemFood"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#ffffff"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="8dp"
+            android:foreground="?selectableItemBackgroundBorderless">
+            <!--android:layout_marginLeft="@dimen/padding_medium">-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/ic_new_item_food"
+                    android:tint="@color/colorAccentOrange"
+                    android:alpha="1"/>
+
+                <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/action_new_item_food"
+                    android:textSize="21dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccentOrange"
+                    android:letterSpacing="0.05"
+                    android:layout_marginLeft="@dimen/padding_xsmall"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnNewItemWorkout"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#ffffff"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="8dp"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:layout_marginLeft="@dimen/padding_small">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/ic_new_item_workout"
+                    android:tint="@color/colorAccentPink"
+                    android:alpha="1"/>
+
+                <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/action_new_item_workout"
+                    android:textSize="21dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccentPink"
+                    android:letterSpacing="0.05"
+                    android:layout_marginLeft="@dimen/padding_xsmall"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/padding_default"
+        app:cardBackgroundColor="#ffffff"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="8dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdgeLength="4dp"
+            android:overScrollMode="never"
+            android:clipToPadding="false" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

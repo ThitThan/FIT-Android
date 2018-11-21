@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnStop"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ท่าทีื่ 1"
+            android:textColor="#80424242"
+            android:textSize="24dp"/>
+
+        <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="barbell curl 4-6"
+            android:textColor="@color/colorPrimary"
+            android:textSize="32dp"
+            android:layout_marginTop="@dimen/padding_medium"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:layout_marginTop="48dp">
+
+            <ProgressBar
+                android:id="@+id/newStampsProgress"
+                android:layout_width="270dp"
+                android:layout_height="270dp"
+                android:layout_gravity="center"
+                android:progressDrawable="@drawable/progressbar_progress_grey"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:alpha="0.75"
+                android:progressTint="@color/colorPrimary"
+                android:background="@drawable/progressbar_progress_bg"
+                android:indeterminate="false"
+                android:progress="10"
+                android:max="100"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="40dp"
+                    android:text="อีก"/>
+
+                <com.kmutt.sit.apps.fit.views.HighTideTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="120dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="1"/>
+                    <!--android:layout_marginTop="@dimen/padding_default"-->
+
+                <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="40dp"
+                    android:text="ครั้ง"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <!--<android.support.v4.view.ViewPager-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</android.support.v4.view.ViewPager>-->
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:background="@color/colorPrimary"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentBottom="true"
+
+        android:text="หยุดออกกำลังกาย"
+        android:textSize="24dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.05" />
+
+</RelativeLayout>

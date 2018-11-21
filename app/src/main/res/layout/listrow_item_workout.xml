@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:foreground="?selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:layout_marginBottom="@dimen/padding_medium"
+        android:layout_marginLeft="@dimen/padding_default"
+        android:padding="@dimen/padding_medium"
+        android:background="@drawable/bg_oval_dull_grey"
+        android:src="@drawable/ic_item_workout"/>
+
+    <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_medium"
+        android:layout_toRightOf="@+id/ivIcon"
+        android:layout_toLeftOf="@+id/caloriesPanel"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"
+        android:text="food"
+        android:textSize="21dp"
+        android:textColor="#424242"/>
+
+    <LinearLayout
+        android:id="@+id/caloriesPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/padding_medium"
+        android:layout_marginRight="@dimen/padding_default"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <com.kmutt.sit.apps.fit.views.HighTideBoldTextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12345"
+            android:textSize="21dp"
+            android:textColor="@color/colorAccentPink"/>
+
+        <com.kmutt.sit.apps.fit.views.CloudBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kcal"
+            android:textSize="15dp"
+            android:textColor="#424242"
+            android:alpha="0.5"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:alpha="0.1"
+        android:layout_alignLeft="@+id/tvTitle"
+        android:layout_below="@+id/ivIcon"/>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFAB00</color>
+    <color name="colorPrimaryDark">#FF9100</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="bgColorNormal">#9E9E9E</color>
+    <color name="bgColorMinReached">#4CAF50</color>
+    <color name="bgColorMaxReached">#FF9100</color>
+    <color name="bgColorDanger">#FF5722</color>
+
+    <color name="colorAccentOrange">#FF9100</color>
+    <color name="colorAccentPink">#F50057</color>
+
+    <color name="textColorFoodItem">#64DD17</color>
+    <color name="textColorWorkoutItem">#FFAB00</color>
+
+</resources>
